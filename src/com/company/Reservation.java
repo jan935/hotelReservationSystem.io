@@ -20,8 +20,18 @@ public class Reservation {
     public String getId() {
         return id;
     }
+    
+    public String setId(String id) {
+        this.id = id;
+        return id;
+    }
 
     public int getNumberOfGuests() {
+        return numberOfGuests;
+    }
+    
+    public int setNumberOfGuests(int numberOfGuests) {
+        this.numberOfGuests = numberOfGuests;
         return numberOfGuests;
     }
 
